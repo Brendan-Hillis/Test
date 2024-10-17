@@ -35,7 +35,7 @@ body:
   - type: input
     id: service-account
     attributes:
-      label: qual-partners environment service account
+      label: Qual-partners environment service account
       description: what is the service account you wish to have onboarded to the qual-partners environment? 
       placeholder: ex. *.iam.gserviceaccount.com
     validations:

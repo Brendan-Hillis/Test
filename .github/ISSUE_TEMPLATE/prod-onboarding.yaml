@@ -45,7 +45,7 @@ body:
     attributes:
       label: Provide evidence of your compliance to the SDD security requirements 
       value: "Review the currently approved SDD for the required artifacts \n
-        (e.g. ISO/IEC certificates or \"written attestation that the Service Provider materially complies\")"
+        (e.g. ISO/IEC certificates or 'written attestation that the Service Provider materially complies')"
     validations:
       required: true
   - type: textarea
@@ -53,7 +53,7 @@ body:
     attributes:
       label: Provide evidence of your compliance to the SDD privacy requirements 
       value: "Review the currently approved SDD for the required artifacts \n
-        (e.g. ISO/IEC certificates or \"Service Providers may demonstrate equivalent compliance\")"
+        (e.g. ISO/IEC certificates or 'Service Providers may demonstrate equivalent compliance')"
     validations:
         required: true
   - type: textarea
@@ -61,7 +61,7 @@ body:
     attributes:
       label: Provide evidence of your compliance to the SDD quality requirements 
       value: "Review the currently approved SDD for the required artifacts \n
-        (e.g. ISO/IEC certificates or \"written attestation that the Service Provider materially complies\")"
+        (e.g. ISO/IEC certificates or 'written attestation that the Service Provider materially complies')"
     validations:
         required: true      
   - type: checkboxes
