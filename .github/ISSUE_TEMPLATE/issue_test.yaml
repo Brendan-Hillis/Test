@@ -2,8 +2,6 @@ name: Pre-Qual Onboarding Issue
 description: Pre-Qual Onboarding Issue
 title: "[Onboarding]: "
 labels: ["Pre-Qual", "Onboarding"]
-# assignees:
-#   - octocat
 body:
   - type: checkboxes
     id: attached-governance-agreement
