@@ -3,6 +3,10 @@ description: Pre-Qual Onboarding Issue
 title: "[Onboarding]: "
 labels: ["Pre-Qual", "Onboarding"]
 body:
+  - type: markdown
+    attributes:
+      value: |
+        *Attach your signed governance agreement here*
   - type: checkboxes
     id: attached-governance-agreement
     attributes:
