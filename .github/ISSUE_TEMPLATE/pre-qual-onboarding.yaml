@@ -1,21 +1,20 @@
 name: Pre-Qual Onboarding Issue
-description: Pre-Qual Onboarding Issue
-title: "[Onboarding]: "
-labels: ["Pre-Qual", "Onboarding"]
+description: Request onboarding of your USP to the pre-qual environment
+title: "pre-qual onboarding request for <insert company name here>"
+labels: ["pre-qual", "onboarding"]
 body:
   - type: input
     id: contact
     attributes:
-      label: Contact Details
+      label: Provide your contact email
       description: How can we get in touch with you if we need more info?
       placeholder: ex. email@example.com
     validations:
       required: true
   - type: textarea
-    id: Attached-governance-agreement-textarea
+    id: attached-governance-agreement-textarea
     attributes:
       label: Attached a copy of the signed governance agreement.
-      placeholder: Tell us what you see!
       value: "Attached a copy of the signed governance agreement"
     validations:
       required: true
@@ -37,39 +36,39 @@ body:
   - type: markdown
     attributes:
       value: |
-        # The following URLs are required if you intend to use the provided pre-qual automated test runner (recommended).
+        ## The following URLs are required if you intend to use the provided pre-qual automated test runner (recommended).
   - type: input
     id: flight-planner-url
     attributes:
-      label: What is base URL for your pre-qual flight planner
+      label: Provide the base URL for your pre-qual flight planner
     validations:
       required: false
   - type: input
     id: test-version-url
     attributes:
-      label: What is base URL for your pre-qual test version provider
+      label: Provide the base URL for your pre-qual test version provider
     validations:
       required: false
   - type: input
     id: prod-version-url
     attributes:
-      label: What is base URL for your pre-qual prod version provider
+      label: Provide the base URL for your pre-qual prod version provider
     validations:
       required: false
   - type: markdown
     attributes:
       value: |
-        # The following URL and Hostnames are required if intend to bring your own DSS.
+        ## The following URL and Hostnames are required if intend to bring your own DSS.
   - type: input
     id: DSS-url
     attributes:
-      label: What is base URL for your pre-qual DSS
+      label: Provide the base URL for your pre-qual DSS
     validations:
       required: false
   - type: textarea
     id: dss-crdb-nodes-textarea
     attributes:
-      label: please list out the hostnames of each of the crdb nodes
+      label: Provide the hostnames of each of your cockroach DB nodes
       value: "example: \n
         0.db.dss.prequal.usp.com \n
         1.db.dss.prequal.usp.com \n
