@@ -1,6 +1,6 @@
 name: Pre-Qual Onboarding Issue
 description: Request onboarding of your USP to the pre-qual environment
-title: "pre-qual onboarding request for <insert company name here>"
+title: "Pre-qual environment onboarding request for <insert company name here>"
 labels: ["pre-qual", "onboarding"]
 body:
   - type: input

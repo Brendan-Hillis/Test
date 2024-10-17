@@ -1,6 +1,6 @@
 name: Simulation Onboarding Issue
 description: Request onboarding of your USP to the simulation environment
-title: "simulation onboarding request for <insert company name here>"
+title: "Simulation environment onboarding request for <insert company name here>"
 labels: ["simulation", "onboarding"]
 body:
   - type: input

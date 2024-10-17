@@ -1,6 +1,6 @@
 name: Production Onboarding Issue
 description: Request onboarding of your USP to the production environment
-title: "production onboarding request for <insert company name here>"
+title: "Production environment onboarding request for <insert company name here>"
 labels: ["production", "onboarding"]
 body:
   - type: input
@@ -35,7 +35,7 @@ body:
   - type: input
     id: service-account
     attributes:
-      label: production environment service account
+      label: Production environment service account
       description: what is the service account you wish to have onboarded to the production environment? 
       placeholder: ex. *.iam.gserviceaccount.com
     validations:

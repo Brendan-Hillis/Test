@@ -1,6 +1,6 @@
 name: Qual-Partners Onboarding Issue
 description: Request onboarding of your USP to the qual-partners environment
-title: "qual-partners onboarding request for <insert company name here>"
+title: "Qual-partners environment onboarding request for <insert company name here>"
 labels: ["qual-partners", "onboarding"]
 body:
   - type: input
