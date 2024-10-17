@@ -70,9 +70,9 @@ body:
     id: dss-crdb-nodes-textarea
     attributes:
       label: please list out the hostnames of each of the crdb nodes
-      value: "example:
-        0.db.dss.prequal.usp.com
-        1.db.dss.prequal.usp.com
+      value: "example: \n
+        0.db.dss.prequal.usp.com \n
+        1.db.dss.prequal.usp.com \n
         2.db.dss.prequal.usp.com"
     validations:
       required: false      
