@@ -24,6 +24,13 @@ body:
       options:
         - label: I have reviewed the results and my USP has a passing result. 
           required: true
+  - type: checkboxes
+    id: integrated-with-operator-checkbox
+    attributes:
+      label: Is your USP integrated with an operator, or are you vertically integrated? 
+      options:
+        - label: Yes, we have integrated with our operator, or we are vertically integrated.  
+          required: true
   - type: input
     id: service-account
     attributes:

@@ -70,6 +70,13 @@ body:
       options:
         - label: Our company complies with the insurance requirements as described in the governance agreement. 
           required: true
+  - type: checkboxes
+    id: sla-with-operator-checkbox
+    attributes:
+      label: Do you have an SLA with your operator, or are you vertically integrated? 
+      options:
+        - label: Yes, we have an SLA with our operator, or we are vertically integrated. 
+          required: true
   - type: input
     id: operational-practicality-issue-link
     attributes:
