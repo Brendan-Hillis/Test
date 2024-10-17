@@ -3,14 +3,6 @@ description: Request onboarding of your USP to the production environment
 title: "Production environment onboarding request for <insert company name here>"
 labels: ["production", "onboarding"]
 body:
-  - type: input
-    id: contact
-    attributes:
-      label: Provide your contact email
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: true
   - type: textarea
     id: attached-test-results-textarea
     attributes:

@@ -1,16 +1,8 @@
 name: Operational Practicality Issue
 description: Document the results from an operational practicality simulation
-title: "operational practicality simulation for <insert company name here>"
+title: "Operational practicality simulation for <insert company name here>"
 labels: ["operational-practicality"]
 body:
-  - type: input
-    id: contact
-    attributes:
-      label: Provide your contact email
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
-    validations:
-      required: true
   - type: textarea
     id: attached-test-results-textarea
     attributes:
