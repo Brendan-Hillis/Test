@@ -7,7 +7,6 @@ body:
     id: Attached-governance-agreement-textarea
     attributes:
       label: Attached a copy of the signed governance agreement.
-      # description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
       value: "Attached a copy of the signed governance agreement"
     validations:
@@ -16,8 +15,31 @@ body:
     id: attached-governance-agreement-checkbox
     attributes:
       label: Have you attached a copy of the signed governance agreement to the issue?
-      description: Have you attached a copy of the signed governance agreement to the issue? 
       options:
         - label: I have attached a copy of the signed governance agreement to the issue. 
           required: true
+  - type: input
+    id: service-account
+    attributes:
+      label: Pre-qual environment service account
+      description: what is the service account you wish to have onboarded to the pre-qual environment? 
+      placeholder: ex. *.iam.gserviceaccount.com
+    validations:
+      required: true
+  - type: input
+    id: service-account
+    attributes:
+      label: Pre-qual environment service account
+      description: what is the service account you wish to have onboarded to the pre-qual environment? 
+      placeholder: ex. *.iam.gserviceaccount.com
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
   
