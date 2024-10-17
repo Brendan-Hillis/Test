@@ -1,0 +1,130 @@
+name: Production Onboarding Issue
+description: Request onboarding of your USP to the production environment
+title: "production onboarding request for <insert company name here>"
+labels: ["production", "onboarding"]
+body:
+  - type: input
+    id: contact
+    attributes:
+      label: Provide your contact email
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: true
+  - type: textarea
+    id: attached-test-results-textarea
+    attributes:
+      label: Attached a copy of the automated testing results (.zip)
+      value: "Attached a copy of the automated testing results (.zip)"
+    validations:
+      required: true
+  - type: checkboxes
+    id: attached-test-results-checkbox
+    attributes:
+      label: Have you a copy of the automated testing results (.zip) to the issue?
+      options:
+        - label: I have a copy of the automated testing results (.zip) to the issue. 
+          required: true
+  - type: checkboxes
+    id: test-results-pass-checkbox
+    attributes:
+      label: Do the test results show your USP has achieved a passing result?
+      options:
+        - label: I have reviewed the results and my USP has a passing result. 
+          required: true
+  - type: input
+    id: service-account
+    attributes:
+      label: production environment service account
+      description: what is the service account you wish to have onboarded to the production environment? 
+      placeholder: ex. *.iam.gserviceaccount.com
+    validations:
+      required: true
+  - type: textarea
+    id: security-textarea
+    attributes:
+      label: Provide evidence of your compliance to the SDD security requirements 
+      value: "Review the currently approved SDD for the required artifacts \n
+        (e.g. ISO/IEC certificates or \"written attestation that the Service Provider materially complies\")"
+    validations:
+      required: true
+  - type: textarea
+    id: privacy-textarea
+    attributes:
+      label: Provide evidence of your compliance to the SDD privacy requirements 
+      value: "Review the currently approved SDD for the required artifacts \n
+        (e.g. ISO/IEC certificates or \"Service Providers may demonstrate equivalent compliance\")"
+    validations:
+        required: true
+  - type: textarea
+    id: quality-textarea
+    attributes:
+      label: Provide evidence of your compliance to the SDD quality requirements 
+      value: "Review the currently approved SDD for the required artifacts \n
+        (e.g. ISO/IEC certificates or \"written attestation that the Service Provider materially complies\")"
+    validations:
+        required: true      
+  - type: checkboxes
+    id: safety-compliance-checkbox
+    attributes:
+      label: Does your company comply with the SDD safety requirements (e.g. conduct a hazard analysis) ? 
+      options:
+        - label: Our company complies with the SDD safety requirements. 
+          required: true
+  - type: checkboxes
+    id: insurance-checkbox
+    attributes:
+      label: Does your company comply with the insurance requirements as described in the governance agreement?  
+      options:
+        - label: Our company complies with the insurance requirements as described in the governance agreement. 
+          required: true
+  - type: checkboxes
+    id: insurance-checkbox
+    attributes:
+      label: Does your company comply with the insurance requirements as described in the governance agreement?  
+      options:
+        - label: Our company complies with the insurance requirements as described in the governance agreement. 
+          required: true
+  - type: input
+    id: operational-practicality-issue-link
+    attributes:
+      label: Provide link to the operational practicality issue 
+      placeholder: https://github.com/utmimplementationus/operations_committee/issues/
+    validations:
+      required: true
+  - type: checkboxes
+    id: operational-practicality-issue-checkbox
+    attributes:
+      label: Has operational practicality issue been fully approved by all required parties?    
+      options:
+        - label: Yes, the operational practicality issue is fully approved by all required parties.
+          required: true
+  - type: checkboxes
+    id: dss-compliance-checkbox
+    attributes:
+      label: Are you providing your own DSS or have you contracted with another approved DSS provider?  
+      options:
+        - label: Our company is providing your own DSS or we have a signed contracted with another approved DSS provider. 
+          required: true
+  - type: markdown
+    attributes:
+      value: |
+        ## The following URL and Hostnames are required if intend to bring your own DSS.
+  - type: input
+    id: DSS-url
+    attributes:
+      label: Provide the base URL for your production DSS
+    validations:
+      required: false
+  - type: textarea
+    id: dss-crdb-nodes-textarea
+    attributes:
+      label: Provide the hostnames of each of your cockroach DB nodes
+      value: "example: \n
+        0.db.dss.prequal.usp.com \n
+        1.db.dss.prequal.usp.com \n
+        2.db.dss.prequal.usp.com"
+    validations:
+      required: false      
+  
+  
