@@ -12,18 +12,18 @@ body:
     validations:
       required: true
   - type: textarea
-    id: attached-governance-agreement-textarea
+    id: attached-joinder-agreement-textarea
     attributes:
-      label: Attached a copy of the signed governance agreement.
-      value: "Attached a copy of the signed governance agreement"
+      label: Attached a copy of the signed joinder agreement.
+      value: "Attached a copy of the signed joinder agreement"
     validations:
       required: true
   - type: checkboxes
-    id: attached-governance-agreement-checkbox
+    id: attached-joinder-agreement-checkbox
     attributes:
-      label: Have you attached a copy of the signed governance agreement to the issue?
+      label: Have you attached a copy of the signed joinder agreement to the issue?
       options:
-        - label: I have attached a copy of the signed governance agreement to the issue. 
+        - label: I have attached a copy of the signed joinder agreement to the issue. 
           required: true
   - type: input
     id: service-account

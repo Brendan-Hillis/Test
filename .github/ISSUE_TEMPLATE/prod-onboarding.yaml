@@ -78,13 +78,6 @@ body:
       options:
         - label: Our company complies with the insurance requirements as described in the governance agreement. 
           required: true
-  - type: checkboxes
-    id: insurance-checkbox
-    attributes:
-      label: Does your company comply with the insurance requirements as described in the governance agreement?  
-      options:
-        - label: Our company complies with the insurance requirements as described in the governance agreement. 
-          required: true
   - type: input
     id: operational-practicality-issue-link
     attributes:
