@@ -4,16 +4,16 @@ title: "[Onboarding]: "
 labels: ["Pre-Qual", "Onboarding"]
 body:
   - type: textarea
-    id: what-happened
+    id: Attached-governance-agreement-textarea
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
+      label: Attached a copy of the signed governance agreement.
+      # description: Also tell us, what did you expect to happen?
       placeholder: Tell us what you see!
-      value: "A bug happened!"
+      value: "Attached a copy of the signed governance agreement"
     validations:
       required: true
   - type: checkboxes
-    id: attached-governance-agreement
+    id: attached-governance-agreement-checkbox
     attributes:
       label: Have you attached a copy of the signed governance agreement to the issue?
       description: Have you attached a copy of the signed governance agreement to the issue? 
