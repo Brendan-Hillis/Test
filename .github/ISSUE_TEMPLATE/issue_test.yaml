@@ -27,7 +27,7 @@ body:
     validations:
       required: true
   - type: input
-    id: service-account
+    id: flight-planner-url
     attributes:
       label: Pre-qual environment service account
       description: what is the service account you wish to have onboarded to the pre-qual environment? 
