@@ -3,6 +3,14 @@ description: Pre-Qual Onboarding Issue
 title: "[Onboarding]: "
 labels: ["Pre-Qual", "Onboarding"]
 body:
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: true
   - type: textarea
     id: Attached-governance-agreement-textarea
     attributes:
@@ -26,6 +34,10 @@ body:
       placeholder: ex. *.iam.gserviceaccount.com
     validations:
       required: true
+  - type: markdown
+    attributes:
+      value: |
+        # The following URLs are required if you intend to use the provided pre-qual automated test runner (recommended).
   - type: input
     id: flight-planner-url
     attributes:
@@ -44,12 +56,25 @@ body:
       label: What is base URL for your pre-qual prod version provider
     validations:
       required: false
-  - type: input
-    id: contact
+  - type: markdown
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      value: |
+        # The following URL and Hostnames are required if intend to bring your own DSS.
+  - type: input
+    id: DSS-url
+    attributes:
+      label: What is base URL for your pre-qual DSS
     validations:
-      required: true
+      required: false
+  - type: textarea
+    id: dss-crdb-nodes-textarea
+    attributes:
+      label: please list out the hostnames of each of the crdb nodes
+      value: "example:
+        0.db.dss.prequal.usp.com
+        1.db.dss.prequal.usp.com
+        2.db.dss.prequal.usp.com"
+    validations:
+      required: false      
+  
   
