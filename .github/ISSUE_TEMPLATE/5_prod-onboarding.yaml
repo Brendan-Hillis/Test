@@ -1,4 +1,4 @@
-name: 5. Production Onboarding Issue
+name: Production Onboarding Issue
 description: Request onboarding of your USP to the production environment
 title: "Production environment onboarding request for <insert company name here>"
 labels: ["production", "onboarding"]
