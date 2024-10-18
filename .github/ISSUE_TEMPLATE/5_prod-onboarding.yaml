@@ -6,6 +6,10 @@ assignees:
   - peter-sachs
   - aganjoo
 body:
+  - type: markdown
+    attributes:
+      value: |
+        *Note: only submit the production onboarding issue once you have an approved operational practicality issue* 
   - type: textarea
     id: attached-test-results-textarea
     attributes:
