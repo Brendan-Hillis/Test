@@ -6,7 +6,8 @@ body:
   - type: textarea
     id: attached-test-results-textarea
     attributes:
-      label: Attached a copy of the automated testing results (.zip)
+      label: Attached a copy of the participant readiness assessment (PRA) automated testing results (.zip)
+      description: Please refer to https://github.com/utmimplementationus/tech_committee/tree/main/automated_testing#success-criteria
       value: "Attached a copy of the automated testing results (.zip)"
     validations:
       required: true
@@ -27,9 +28,9 @@ body:
   - type: checkboxes
     id: integrated-with-operator-checkbox
     attributes:
-      label: Is your USP integrated with an operator, or are you vertically integrated? 
+      label: Have you established an integration with your operator? 
       options:
-        - label: Yes, we have integrated with our operator, or we are vertically integrated.  
+        - label: Yes, we have established an integration with our operator.   
           required: true
   - type: input
     id: service-account

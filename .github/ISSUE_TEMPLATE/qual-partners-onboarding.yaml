@@ -6,7 +6,7 @@ body:
   - type: textarea
     id: attached-test-results-textarea
     attributes:
-      label: Attached a copy of the automated testing results (.zip)
+      label: Attached a copy of the pre-qual automated testing results (.zip)
       value: "Attached a copy of the automated testing results (.zip)"
     validations:
       required: true
