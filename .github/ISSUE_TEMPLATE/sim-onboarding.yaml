@@ -2,6 +2,9 @@ name: Simulation Onboarding Issue
 description: Request onboarding of your USP to the simulation environment
 title: "Simulation environment onboarding request for <insert company name here>"
 labels: ["simulation", "onboarding"]
+assignees:
+  - peter-sachs
+  - aganjoo
 body:
   - type: textarea
     id: attached-test-results-textarea
@@ -21,7 +24,7 @@ body:
     id: test-results-pass-checkbox
     attributes:
       label: Do the test results show your USP has achieved a passing result?
-      description: Please refer to [success-criteria](https://github.com/utmimplementationus/tech_committee/tree/main/automated_testing#success-criteria
+      description: Please refer to [success-criteria](https://github.com/utmimplementationus/tech_committee/tree/main/automated_testing#success-criteria)
       options:
         - label: I have reviewed the results and my USP has a passing result. 
           required: true

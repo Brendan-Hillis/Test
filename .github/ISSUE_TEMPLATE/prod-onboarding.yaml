@@ -2,6 +2,9 @@ name: Production Onboarding Issue
 description: Request onboarding of your USP to the production environment
 title: "Production environment onboarding request for <insert company name here>"
 labels: ["production", "onboarding"]
+assignees:
+  - peter-sachs
+  - aganjoo
 body:
   - type: textarea
     id: attached-test-results-textarea
