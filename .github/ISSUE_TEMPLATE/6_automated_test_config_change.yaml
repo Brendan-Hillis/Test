@@ -11,17 +11,17 @@ body:
         - label: "Qual-partners: simulation_fitness"
         - label: "Qual-partners: production_fitness"
         - label: "Other" 
+  - type: markdown
+    attributes:
+      value: |
+        For changes to the `exploratory` automated test please contact the technical committee.  
   - type: textarea
     attributes:
       label: Describe the change you wish made to the automate test configuration.
       value: |
-        Describe the change you wish made to the automate test configuration. |
+        Describe the change you wish made to the automate test configuration.
         Examples: 
           * [ remove | add ] my USP from the automated test
           * update my USPs base URL for: ...
     validations:
       required: true
-  - type: markdown
-    attributes:
-      value: |
-        For changes to the `exploratory` automated test please contact the technical committee.  
