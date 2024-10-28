@@ -1,6 +1,8 @@
 name: Automated Test Configuration Change
 description: Request a change to the automated test configuration. 
 labels: ["automated_test_config_change"]
+assignees:
+  - RPAS-Platform-Admins
 body:
   - type: checkboxes
     attributes:
@@ -21,7 +23,7 @@ body:
       value: |
         Describe the change you wish made to the automate test configuration.
         Examples: 
-          * [ remove | add ] my USP from the automated test
+          * [remove | add] my USP from the * automated test
           * update my USPs base URL for: ...
     validations:
       required: true
