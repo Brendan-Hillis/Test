@@ -6,7 +6,7 @@ body:
     attributes:
       label: Which automate test do you wish to make the change to
       options:
-        - label: "Pre-qual: <USP>_pre_qual"
+        - label: "Pre-qual: *_pre_qual"
         - label: "Qual-partners: participant_readiness_assessment"
         - label: "Qual-partners: simulation_fitness"
         - label: "Qual-partners: production_fitness"
@@ -14,7 +14,11 @@ body:
   - type: textarea
     attributes:
       label: Describe the change you wish made to the automate test configuration.
-      value: "Describe your operational practicality simulation, include artifacts as desired (e.g. KMLs)"
+      value: |
+        "Describe the change you wish made to the automate test configuration." |
+        "Examples:" |
+        " * [ remove | add ] my USP from the automated test"
+        " * update my USPs base URL for: ..."
     validations:
       required: true
   - type: markdown
