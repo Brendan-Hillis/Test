@@ -1,0 +1,24 @@
+name: RPAS Platform Support Request
+description: Generic RPAS Platform Support Request.
+labels: ["rpas_platform_support"]
+assignees:
+  - RPAS-Platform-Admins
+body:
+  - type: checkboxes
+    attributes:
+      label: "[Required] Which environment are you requesting support for?"
+      options:
+        - label: "Pre-qual"
+        - label: "Qual-partners"
+        - label: "Simulation"
+        - label: "Production"
+        - label: "Other"
+  - type: textarea
+    attributes:
+      label: "[Required] Describe the RPAS Platform support request."
+      value: |
+        Describe the support request:
+          * if reporting an issue, please include relevant information about the issue such as: timestamps, logs, screenshots, and/or steps to reproduce.
+          * if a general request, please be as explicit as possible so that the RPAS Admins can accurately action the request.
+    validations:
+      required: true

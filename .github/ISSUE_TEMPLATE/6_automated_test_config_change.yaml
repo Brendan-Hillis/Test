@@ -1,5 +1,5 @@
 name: Automated Test Configuration Change
-description: Request a change to the automated test configuration. 
+description: Request a change to the automated test configuration.
 labels: ["automated_test_config_change"]
 assignees:
   - RPAS-Platform-Admins
@@ -12,17 +12,17 @@ body:
         - label: "Qual-partners: participant_readiness_assessment"
         - label: "Qual-partners: simulation_fitness"
         - label: "Qual-partners: production_fitness"
-        - label: "Other" 
+        - label: "Other"
   - type: markdown
     attributes:
       value: |
-        For changes to the `exploratory` automated test please contact the technical committee.  
+        For changes to the `exploratory` automated test please contact the technical committee.
   - type: textarea
     attributes:
       label: Describe the change you wish made to the automate test configuration.
       value: |
         Describe the change you wish made to the automate test configuration.
-        Examples: 
+        Examples:
           * [remove | add] my USP from the * automated test
           * update my USPs base URL for: ...
     validations:
